@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeroChildComponent } from './hero-child/hero-child.component';
+import { HeroParentComponent } from './hero-parent/hero-parent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroChildComponent
+    HeroChildComponent,
+    HeroParentComponent
   ],
   imports: [
     BrowserModule,
